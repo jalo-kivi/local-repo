@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Pyrkon - ankieta</h1>
+      <p id="description">Prosimy o wypełnienie ankety dotyczącej atrakcji na Pyrkonie 2025.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <label id="name-label">Imię: </label>
+        <input id="name" type="text" required placeholder ="Twoje imię">
+
+        <label id="email-label">Email: </label>
+        <input id="email" type="email" required placeholder ="Twój email">
+
+        <label id="number-label">Wiek: </label>
+        <input id="number" type="number" min="5" max="120" placeholder ="wiek">
+
+        
+        <fieldset>
+          <legend>Czy brałxś udział we wcześniejszych edycjach Pyrkonu?</legend>
+          <label for="yes-option">Tak</label>
+            <input id="yes-option" type="radio" name="previous-pyrkon" value="tak"/>
+            <label for="no-option">Nie</label>
+            <input id="no-option" type="radio" name="previous-pyrkon" value="nie"/>
+        </fieldset>
+      
+        
+        <fieldset>
+          <legend>Jakie atrakcje cię interesują?</legend>
+          <label for="koncerty">Koncerty</label>
+          <input type="checkbox" id="koncerty" name="koncerty" value="koncerty" />
+          <label for="prelekcje">Prelekcje</label>
+          <input type="checkbox" id="prelekcje" name="prelekcje" value="prelekcje" />
+          <label for="cosplay">Strefa Cosplay</label>
+          <input type="checkbox" id="cosplay" name="cosplay" value="cosplay" />
+          <label for="warsztaty">Warsztaty</label>
+          <input type="checkbox" id="warsztaty" name="warsztaty" value="warsztaty" />
+        </fieldset>
+
+         <fieldset>
+           <legend>W jakie dni planujesz być na Pyrkonie?</legend>
+            <select id="dropdown">
+              <option value="3-dni">Piątek, sobota, niedziela</option>
+              <option value="piątek">Tylko piątek</option>
+              <option value="sobota">Tylko sobota</option>
+              <option value="niedziela">Tylko niedziela</option>
+            </select>
+        </fieldset>
+
+        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+        <button id="submit" type="submit">Submit</button>
+
+      </form>
+    </main>
+  </body>
+</html>
