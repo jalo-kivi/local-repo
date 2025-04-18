@@ -1,0 +1,31 @@
+body {
+  background-color: #f4f4f4;
+  padding: 0 20px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.color1 {
+  background-color: #006700;
+}
+
+.color2 {
+  background-color: rgb(12, 12, 125);
+}
+
+.color3 {
+  background-color: brown;
+}
+
+.color4 {
+  background-color: hsl(240, 50%, 80%);
+}
+
+.color5 {
+  background-color: #891144;
+}
