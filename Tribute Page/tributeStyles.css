@@ -1,0 +1,51 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #e3e3e3;
+}
+
+
+#image {
+  width: 80%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+}
+
+h1, figcaption {
+  text-align: center; 
+  padding: 10px;
+}
+
+#tribute-info {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+li {
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+  padding-top: 30px;
+  color: #654321;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #654321;
+}
+
+a:hover {
+  color: beige;
+  background-color: #654321;
+}

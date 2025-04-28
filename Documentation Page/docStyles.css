@@ -1,0 +1,51 @@
+* {
+  font-family: Verdana, sans-seif;
+}
+
+nav {
+  display: block;
+  background-image: linear-gradient(darkgreen 25%, lightgreen, darkgreen);
+  padding: 20px;
+  color: white;
+}
+
+nav > header {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-doc {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  border-bottom: 3px solid grey;
+  margin-top: 30px;
+}
+
+.main-section > header {
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+}
+
+code {
+  background-color: lightgrey;
+  padding: 10px;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  #main-doc {
+    max-width: 400px;
+  }
+}

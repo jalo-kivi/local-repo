@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="docStyles.css">
+  </head>
+
+  <body>
+      <nav id="navbar">
+        <header>C++ documentation page</header>
+        <ul>
+          <li><a class="nav-link" href="#introduction">Introduction</a></li>
+          <li><a class="nav-link" href="#hello_world">Hello world</a></li>
+          <li><a class="nav-link" href="#declaring_variables">Declaring variables</a></li>
+          <li><a class="nav-link" href="#data_types">Data types</a></li>
+          <li><a class="nav-link" href="#while_statement">While statement</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction
+        </header>
+        <p>C++ is one of the world's most popular programming languages. It is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.</p>
+        <p>C++ was developed by Bjarne Stroustrup, as an extension to the C language. It gives programmers a high level of control over system resources and memory.</p>
+      </section>
+      <section class="main-section" id="hello_world">
+        <header>Hello world
+        </header>
+        <p>To get started with writing C++, write your first "Hello world" code:</p>
+        <code>cout << "Hello world" << endl;</code>
+        <p>Now you can run the code and see what happens.</p>
+      </section>
+      <section class="main-section" id="declaring_variables">
+        <header>Declaring variables
+        </header>
+        <p>To create a variable, specify the type and assign it a value:</p>
+        <code>type variableName = value;</code>
+        <p>Where type is one of C++ types (such as int), and variableName is the name of the variable (such as x or myName). The equal sign is used to assign values to the variable.</p>
+        <p>There are many types of variables. </p>
+        <ul>
+          <li>int</li>
+          <li>float</li>
+          <li>char</li>
+          <li>string</li>
+          <li>bool</li>
+        </ul>
+      </section>
+      <section class="main-section" id="data_types">
+        <header>Data types
+        </header>
+        <p>Here is a demonstration of data types:</p>
+        <code>int a = 5</code>
+        <p>int is a whole number without decimals</p>
+        <code>char letter = 'c'</code>
+        <p>char means character</p>
+        <code>bool myBoolean = true</code>
+        <p>bool means Boolean (true or false)</p>
+      </section>
+      <section class="main-section" id="while_statement">
+        <header>While statement
+        </header>
+        <p>Loops can execute a block of code as long as a specified condition is reached. Loops are handy because they save time, reduce errors, and they make code more readable.</p>
+        <p>The while loop loops through a block of code as long as a specified condition is true. Example: </p>
+        <code>int i = 0;
+while (i < 5) {
+  cout << i << "\n";
+  i++;
+}</code>
+      </section>
+    </main>
+  </body>
+</html>
