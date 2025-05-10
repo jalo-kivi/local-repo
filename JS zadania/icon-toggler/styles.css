@@ -1,0 +1,33 @@
+* {
+  font-family: Verdana;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  color: darkgreen;
+}
+
+.item-list {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+button {
+  text-decoration: none;
+  text-align: right;
+  background-color: none;
+}
+
+.favorite-icon {
+  background-color: none;
+  border: none;
+  margin-left: 20px;
+}
+
+.filled {
+  color: orangered;
+  font-weight: bold;
+}

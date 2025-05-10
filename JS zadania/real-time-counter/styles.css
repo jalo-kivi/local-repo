@@ -1,0 +1,19 @@
+* {
+  margin: 0 auto;
+  font-family: Verdana;
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: darkgreen;
+}
+
+textarea {
+  border: 2px solid orangered;
+}
+
+.red {
+  color: red;
+}
