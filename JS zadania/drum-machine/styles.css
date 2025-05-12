@@ -1,0 +1,48 @@
+* {
+  background-color: darkgreen;
+  font-family: Verdana;
+}
+
+
+#pad-bank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 320px;
+  margin: 20px auto;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+.drum-pad {
+  width: 90px;
+  height: 90px;
+  background-color: rgb(77, 6, 6);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.drum-pad:hover {
+  background-color: rgb(94, 35, 35);
+}
+
+
+#display {
+  background-color: rgb(77, 6, 6);
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-width: 250px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
