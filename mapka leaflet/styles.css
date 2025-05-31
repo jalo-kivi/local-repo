@@ -1,0 +1,99 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+	text-align: center;
+}
+
+#map { 
+  height: 400px; 
+  margin: 0 auto;
+}
+
+
+.leaflet-custom-popup .leaflet-popup-content-wrapper {
+    background-color: #66d9ff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 200px; 
+    width: auto;
+}
+
+
+.leaflet-custom-popup .leaflet-popup-content {
+    margin: 0;
+    text-align: center; 
+}
+
+
+.custom-popup h3 {
+    margin: 0 0 5px;
+    font-size: 14px;
+}
+
+.custom-popup p {
+    font-size: 10px;
+    margin: 0;
+}
+
+
+.popup-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    font-size: 12px;
+}
+
+.popup-button:hover {
+    background-color: #0056b3;
+}
+
+.copied-message {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px; 
+  color: darkgray; 
+}
+
+.form-title {
+  text-align: center;
+  color: #5C6AC4;
+}
+
+.form-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #66d9ff;
+}
+
+.form-container input, form-container button {
+  margin: 5px;
+  width: 30%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.form-container button {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #66d9ff;
+  color: white;
+}
+
+.form-container button:hover {
+  background-color: #007bff;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}

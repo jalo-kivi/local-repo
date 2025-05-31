@@ -1,0 +1,85 @@
+body {
+  background-color: lightgrey;
+  font-family: Verdana, sans-serif;
+}
+
+div {
+  background-color: DarkSeaGreen;
+  max-width: 500px;
+  padding: 20px;
+  margin: auto;
+}
+
+h1 {
+  color: lightgrey;
+  text-align: center;
+  border-bottom: 3px solid lightgrey;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #009933;
+  color: lightgrey;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ccffdd;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #99bbff;
+  color: white;
+  border: 3px solid #002266;
+  padding:8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.task-item.done {
+  background-color: #d1ffd1;
+  border: 3px solid #009933;
+  color: #555;
+}
+
+.task-label {
+  flex-grow: 1; /*task-label sie "rozciaga" żeby zajac jak najwiecej miejsca do remove-btn*/
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}

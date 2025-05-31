@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mapa</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+  </head>
+  <body>
+      <h1 class="title">Mapa</h1>
+      <div id="map"></div>
+      <div id="message" class="copied-message"></div>
+      
+      <h2 class="form-title">Dodaj marker</h2>
+      <div class="form-container">
+        <label for="lat">Szerokość geograficzna (ang. lat):</label>
+        <input type="number" id="lat" placeholder="52.44"><br>
+        
+        <label for="lng">Długość geograficzna (ang. lng):</label>
+        <input type="number" id="lng" placeholder="16.80"><br>
+        
+        <label for="popupText">Tekst na pop-up:</label>
+        <input type="text" id="popupText" placeholder="Wprowadź tekst" required=""><br>
+        
+        <label for="buttonText">Tekst na przycisku:</label>
+        <input type="text" id="buttonText" placeholder="Przycisk" required=""><br>
+        
+        <label for="markerColor">Kolor markera:</label>
+        <input type="color" id="markerColor" value="#ff0000" required><br>
+        
+        <button id="addMarker">Dodaj marker</button>
+        <p id="errorMessage" class="error-message"></p>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
