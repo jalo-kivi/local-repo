@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona sklepu zoologicznego</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/30d56ab4e8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header>
+        <nav class="mobile-nav">
+          <button id="menu-toggle">&#9776;</button>
+          <ul id="menu" class="hidden">
+            <li><a href="#" onclick="showPage('home')">Strona Główna</a></li>
+            <li><a href="#" onclick="showPage('karmy')">Karmy</a></li>
+            <li><a href="#" onclick="showPage('akcesoria')">Akcesoria</a></li>
+            <li><a href="#" onclick="showPage('newsletter')">Newsletter</a></li>
+          </ul>
+        </nav>
+  </header>
+  
+  <main>
+    <section id="home" class="page active">
+      <div class="intro">
+        <h1>Dla zwierzaka</h1>
+        <p>Witaj na stronie sklepu zoologicznego</p>
+        <img src="https://media.istockphoto.com/id/612739772/photo/cute-border-collie-with-big-pet-bone-in-pet-store.jpg?s=612x612&w=0&k=20&c=0gvvZ62gExBDQECm8G3h-Z5qf1t9xNC66ZkGYRRng-I=">
+      </div>
+      <div class="scroll-images">
+        <h2>Nowości</h2>
+        <div class="horizontal-scroll">
+          <figure>
+            <img src="https://krainatuptusia.pl/images/krainatuptusia/5000-6000/Hamak-trojkatny-L-38-38cm-Rajski-Ogrod-dla-swinek-morskich-szczurow-szynszyli_%5B5580%5D_480.jpg" alt="Hamak dla świnki morskiej" />
+            <figcaption>Hamak dla świnki morskiej</figcaption>
+          </figure>
+          <figure>
+            <img src="https://sznupa.pl/product_picture/fit_in_352x469/e777102a0bf7db229ac987822de08dc2.png" alt="Przysmak dla kota"/>
+            <figcaption>Przysmaki dla kota</figcaption>
+          </figure>
+          <figure>
+            <img src="https://a.allegroimg.com/original/1180c1/6cc268264cd9973664d9375a99fc/Kokosowe-Domki-z-drabinka-zabawka-dla-papug-Zako" alt="Domek i drabinka dla papug"/>
+            <figcaption>Drabinka z domkiem dla papug</figcaption>
+          </figure>
+          <figure>
+            <img src="https://m.media-amazon.com/images/I/71pQRSrIxuL._AC_UF1000,1000_QL80_.jpg" alt="Platforma do terrarium"/>
+            <figcaption>Platforma dla gadów</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    
+    <section id="karmy" class="page">
+      <div>
+        <h2>W naszym sklepie znajdziesz karmy: </h2>
+        <ul>
+          <li>dla kotów</li>
+          <li>dla psów</li>
+          <li>dla ptaków</li>
+          <li>dla gryzoni</li>
+        </ul>
+      </div>
+      <div class="tabela">
+        <h2>Ranking karm dla kotów</h2>
+        <table>
+          <tr>
+            <th>Dobra jakość</th>
+            <th>Średnia jakość</th>
+            <th>Zła jakość</th>
+          </tr>
+          <tr>
+            <td><a href="https://www.animalisland.eu/collections/kot" target="_blank">Animal Island</a></td>
+            <td>Dolina Noteci Natural</td>
+            <td>Catessy</td>
+          </tr>
+          <tr>
+            <td><a href="https://johndog.pl/kategoria-produktu/kot/karma-dla-kota/" target="_blank">John Dog for Cats</a></td>
+            <td>Nutro Wild</td>
+            <td>Sheba</td>
+          </tr>
+          <tr>
+            <td><a href="https://wiejskazagroda.pl/pl/menu/kot-191" target="_blank">Wiejska Zagroda</a></td>
+            <td>My Star</td>
+            <td>Royal Canin</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    
+    <section id="akcesoria" class="page">
+      <div class="product-grid">
+        <h2>Akcesoria</h2>
+        <div class="grid">
+          <div class="product-card">
+            <img src="https://www.kuchniapupila.pl/files/1662961596/305_3.jpg" alt="Rampa" />
+            <p>Rampa dla psa - 49.99 zł</p>
+          </div>
+          <div class="product-card">
+            <img src="https://a.allegroimg.com/original/11c546/7925dd2940748ccfaac7bb81108e/ZESTAW-ZABAWEK-szarpak-dla-psa-sznur-do-silowania" alt="Szarpaki" />
+            <p>Szarpaki dla psa - 64.99 zł</p>
+          </div>
+          <div class="product-card">
+            <img src="https://matywechowe.pl/wp-content/uploads/2020/11/mata-wechowa-premium-lemonblue.jpg" alt="mata węchowa" />
+            <p>Mata węchowa - 79.99 zł</p>
+          </div>
+          <div class="product-card">
+            <img src="https://hurtnet.pl/wp-content/uploads/2021/02/2365-jpg.webp" alt="Drapak dla kota" />
+            <p>Drapak tekturowy - 54.99 zł</p>
+          </div>
+          <div class="product-card">
+            <img src="https://a.allegroimg.com/original/1173c4/8684c451401bb625dc85921c9744/ZABAWKA-BIEGAJACA-FRETKA-pilka-myszka-uciekajaca-WEAZEL-BALL-DLA-KOTA-PSA" alt="Zabawka piłka dla kota" />
+            <p>Piłka z ogonem dla kota - 24.99 zł</p>
+          </div>
+          <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71A+6aU0IcL._AC_UF1000,1000_QL80_.jpg" alt="Zestaw zabawek dla chomika" />
+            <p>Zestaw zabawek dla chomika - 84.99 zł</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="newsletter" class="page">
+      <h2>Newsletter</h2>
+      <form>
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" placeholder="Twoje imię" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Adres email" required />
+        <button type="submit">Zapisz się!</button>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Nasze Social Media</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </footer>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
